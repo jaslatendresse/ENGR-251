@@ -2,6 +2,7 @@ body{
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     padding:0 0 0 0; 
     margin: 0 0 0 0; 
+    background-image:url(./pics/wallpaper.jpg);
 }
 
 ul{
@@ -27,13 +28,13 @@ li a{
 }
 
 li a.active {
-    background-color:black;
-    color:white;
+    background-color:white;
+    color:black;
 }
 
 li a:hover:not(.active){
-    background-color:black;
-    color:white;
+    background-color:white;
+    color:black;
 }
 
 #aboutdiv{
@@ -42,14 +43,15 @@ li a:hover:not(.active){
 }
 
 #wrapper{
-    text-align: center;
+   
 }
 
 #thermolink{
     text-decoration: none;
-    color:black;
+    color:white;
 }
 
 #thermolink:hover{
     color:#f1f1f1;
 }
+
