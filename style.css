@@ -40,3 +40,16 @@ li a:hover:not(.active){
     margin:0 auto;
     text-align: center;
 }
+
+#wrapper{
+    text-align: center;
+}
+
+#thermolink{
+    text-decoration: none;
+    color:black;
+}
+
+#thermolink:hover{
+    color:#f1f1f1;
+}
