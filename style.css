@@ -2,8 +2,9 @@ body{
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     padding:0 0 0 0; 
     margin: 0 0 0 0; 
-    background-image:url(./pics/wallpaper2.jpg);
+    background-image:url(http://i.imgur.com/DpwpOuH.jpg);
 }
+
 
 ul{
     list-style-type:none;
@@ -12,9 +13,24 @@ ul{
     background-color:#f1f1f1;
     overflow:hidden;
     width:100%;
-    opacity:0.7;
+    z-index:1;
     position:fixed;
     top:0%;
+}
+
+footer{
+    margin:0;
+    padding:5px;   
+    background-color:#f1f1f1;
+    overflow:hidden;
+    width:100%;
+    z-index:1;
+    
+    bottom:0;
+    color:black;
+    text-align:center;
+    font-size:12px;
+    
 }
 
 li{
@@ -39,28 +55,185 @@ li a:hover:not(.active){
     color:black;
 }
 
+
+/*FUN FACTS*/
+
+#titlefunfacts{
+    background-image: url("https://wallpaperscraft.com/image/space_background_blue_dots_73340_3840x2400.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width:100%;
+    padding-top:100px;
+    min-height:600px;
+    font-size:20px;
+    text-align: justify;
+    color:white;
+
+}
+
+#titlefunfacts h1{
+    margin-top:100px;
+    margin-left:50px;
+}
+
+.contentfacts1{
+    padding:70px;
+    font-size:20px;
+    text-align: justify;
+    background-color:#f1f1f1;
+
+}
+
+.contentfacts2{
+    padding:70px;
+    font-size:20px;
+    text-align: justify;
+    background-image: url(http://wallpapercave.com/wp/aF12T0e.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color:#f1f1f1;
+}
+
+#content{
+    text-align:center;
+    font-size:30px;
+
+}
+
+#content h2{
+    color:#73AD21; ;
+    font-size:40px;
+}
+
+/*ABOUT*/
 #aboutdiv{
     margin:0 auto;
     text-align: center;
 }
 
+.sources{
+    color:white;
+    margin-top:100px;
+    max-width:800px;
+    margin-left:8px;
+}
+
+.sources li a{
+    color:white;
+    text-decoration:underline;
+}
+
+.sources li a:hover{
+    background-color:transparent;
+    color:white;
+}
+
+/*QUIZ*/
+
+#title{
+    background-image: url("https://www.conncoll.edu/media/major-images/Chemistry.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    width:100%;
+    padding:100px;
+    font-size:20px;
+    text-align: justify;
+    color:white;
+
+}
+
+
+.question1{
+    width:100%;
+    padding:70px;
+    font-size:20px;
+    text-align: justify;
+    background-color:#f1f1f1;
+
+}
+
+.question2{
+    width:100%;
+    padding:70px;
+    font-size:20px;
+    text-align: justify;
+    background-color:white;
+}
+
+
+.answers{	
+    width: 500px;
+    height: 130px;
+    margin: 10px;
+    border: 3px solid #73AD21;  
+    text-align: left;
+    margin-right: -50%;
+    position: relative;
+    padding:5px;
+}
+
+#submit{
+    background-color:#73AD21;
+    color: #f1f1f1;
+    padding: 12px 30px;
+    border-color: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#submit:hover, #submit:active{
+    background-color: #f1f1f1;
+    color: #73AD21;
+    border-color: none;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#contentquiz{
+    text-align:center;
+    font-size:30px;
+    background-color:white;
+}
+
+#contentquiz h2{
+    color:#73AD21; ;
+    font-size:40px;
+}
+
+/*HOME*/
+
 .parallax{
-    min-height:500px;
+    min-height:700px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    background-image:url(http://i.imgur.com/DpwpOuH.jpg);
+    margin-top:-252px;
 }
 
 .content1{
-    min-height:500px;
+    min-height:750px;
     background-color:#f1f1f1;
-    opacity:0.7;
     color:black;
-    z-index: 1;
     margin:0;
     padding:0;
+    background-attachment:fixed;
 }
 
 .explanation{
@@ -71,8 +244,8 @@ li a:hover:not(.active){
 }
 
 .content2{
-    background-image: url(./pics/wallpaper3.jpg);
-    min-height:500px;
+    background-image: url(http://wallpapercave.com/wp/aF12T0e.jpg);
+    min-height:750px;
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
@@ -82,5 +255,25 @@ li a:hover:not(.active){
     color:#f1f1f1;
 }
 
+.content3{
+    background-color:#f1f1f1;
+    min-height:750px;
+    background-attachment:fixed;
+    color:black;
+    margin:0;
+    padding:0;
+}
+
+.content4{
+    background-image: url(http://wallpapercave.com/wp/aF12T0e.jpg);
+    min-height:750px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin:0;
+    padding:0;
+    color:#f1f1f1;
+}
 
 
